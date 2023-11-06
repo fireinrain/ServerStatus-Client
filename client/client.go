@@ -23,9 +23,9 @@ const DefaultProtocol = "ip4"
 const PingPacketHistoryLen = 100
 const TimeOut = time.Second * 3
 
-const PingCu = "cu.tz.vizan.cc"
-const PingCt = "ct.tz.vizan.cc"
-const PingCm = "cm.tz.vizan.cc"
+const PingCu = "cu.tz.cloudcpp.com"
+const PingCt = "ct.tz.cloudcpp.com"
+const PingCm = "cm.tz.cloudcpp.com"
 
 type Client struct {
 	Server    string
